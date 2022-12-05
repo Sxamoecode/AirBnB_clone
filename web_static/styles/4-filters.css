@@ -19,7 +19,6 @@
     border-radius: 4px;;
     margin: 12px 30px;
     float: right;
-    position: relative;
 }
 .filters button:hover {
     opacity: 90%;

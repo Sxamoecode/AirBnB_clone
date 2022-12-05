@@ -21,7 +21,6 @@
     border-radius: 4px;;
     margin: 12px 30px;
     float: right;
-    position: relative;
 }
 /* Change opacity to 90% when mouse hovers */
 .filters button:hover {
@@ -33,30 +32,25 @@
     height: 100%;
     width: 25%;
     display: inline-block;
+    color: #000000;
+    text-align: center;
+    align-items:center;
+    display: inline-block;
+    justify-content: center;
+    margin: 10 50 10 50;
 }
 /* Set borders for locations */
 .locations {
-    border-right: 1px #DDDDDD solid;
+    border-right: 1px solid #DDDDDD;
 }
-/* headers styles*/
-.filters h2,
-.filters h3,
-.filters h4 {
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.filters h3 {
+/* style header 3 */
+.locations h3, .amenities h3 {
     font-weight: 600;
-    font-size: 1.17em;
-    height: 50%;
-    padding: 15.5px 0 0 30px;
+    margin: 10px 0 2px 15px;
 }
-.filters h4 {
+/* style header 4 */
+.locations h4, .amenities h4 {
     font-weight: 400;
-    font-size: 14;
-    height: 50%;
-    padding: 5px 0 12px 30px;
-
+    font-size: 14px;
+    margin: 2px 0 0 20px;
 }
