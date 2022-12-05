@@ -1,0 +1,15 @@
+/*
+ * === Footer styles ===
+ */
+/* Footer style */
+.footer {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    border-top: 1px #CCCCCC solid;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,7 @@
+.container {
+    max-width: 1000px;
+    margin: 30px 30px;
+    align-self: center;
+    left: 50%;
+    right: 50%;
+}
